@@ -1,0 +1,14 @@
+[package]
+name = "ondemand"
+version = "0.1.0"
+authors = ["Mike Ehrenberg <mike@barchart.com>"]
+
+[lib]
+name = "ondemand"
+path = "src/lib.rs"
+
+[dependencies]
+reqwest = "0.8"
+serde = "*"
+serde_json = "*"
+error-chain = "0.11"

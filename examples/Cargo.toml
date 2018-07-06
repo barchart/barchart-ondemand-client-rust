@@ -1,0 +1,11 @@
+[package]
+name = "ondemand-app"
+version = "0.1.0"
+authors = ["Barchart"]
+
+[[bin]]
+name = "all-apis"
+path = "src/main.rs"
+
+[dependencies]
+ondemand = { path = "../" }
